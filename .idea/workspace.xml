@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fc27832-89d7-4dbf-859b-67c9db7df3e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/stuzzicheria.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bibitecaffe.html" beforeDir="false" afterPath="$PROJECT_DIR$/bibitecaffe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/orzo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/items/orzo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/tisana.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/items/tisana.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birre.html" beforeDir="false" afterPath="$PROJECT_DIR$/birre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vino.html" beforeDir="false" afterPath="$PROJECT_DIR$/vino.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1624179183644</updated>
       <workItem from="1624179184698" duration="8601000" />
-      <workItem from="1624303385899" duration="4700000" />
+      <workItem from="1624303385899" duration="5297000" />
+      <workItem from="1624389549807" duration="2333000" />
     </task>
     <servers />
   </component>
@@ -89,5 +92,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
