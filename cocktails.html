@@ -22,6 +22,23 @@
               $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
             });
           });
+
+
+          // get the list of all cocktails <h5 class="card-title text-white" style="color: white">Disaronno Sour</h5>
+          var textList = [];
+
+$('h5.card-title[style="color: white"]').each(function() {
+  var text = $(this).text();
+  textList.push(text);
+});
+
+var textSeparatedByCommas = textList.join(', ');
+console.log(textSeparatedByCommas);
+
+
+
+
+
         });
         </script>
 
@@ -397,9 +414,9 @@
                             <p class="card-text text-white" >Malfy Rosa/Arancia/Limone</p>
                             <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 8.00</small></p>
                             <p class="card-text text-white" >Hendrick's/Mare</p>
-                            <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 10.00</small></p>
+                            <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 12.00</small></p>
                             <p class="card-text text-white" >Mare Capri</p>
-                            <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 13,00</small></p>
+                            <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 15,00</small></p>
                         </div>
                     </div>
                 </div>
@@ -2555,7 +2572,7 @@
                         <div class="card-body">
                             <h5 class="card-title text-white" style="color: white">Mojito al cocco</h5>
                             <p class="card-text text-white" >Rum Bianco, lime, menta, zucchero di canna, crema di cocco, soda</p>
-                            <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 5.00</small></p>
+                            <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 6.00</small></p>
                         </div>
                     </div>
                 </div>
@@ -2572,7 +2589,7 @@
                         <div class="card-body">
                             <h5 class="card-title text-white" style="color: white">Mojito alla Fragola</h5>
                             <p class="card-text text-white" >Rum Bianco, lime, menta, zucchero di canna, fragole, soda</p>
-                            <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 5.00</small></p>
+                            <p class="card-text"><small class="text-white" style="font-weight: bolder;font-size: medium"> € 6.00</small></p>
                         </div>
                     </div>
                 </div>
